@@ -18,12 +18,12 @@ class manager extends employee {
     }
 }
 
-const emp1 = new employee("Spike the dragon", "The library")
-const mgr1 = new manager("Twilight Sparkle", "The library", 3)
-const emp2 = new employee("Fluttershy", "The shelter")
-const mgr2 = new manager("Angel", "The shelter", 2)
-const emp3 = new employee("Rarity", "The boutique")
-const mgr3 = new manager("Rarity", "The boutique", 3)
+const emp1 = new employee("Bob", "IT")
+const mgr1 = new manager("Joe", "IT", 3)
+const emp2 = new employee("Deen", "Finance")
+const mgr2 = new manager("Harry", "Finance", 2)
+const emp3 = new employee("Bretch", "Main Office")
+const mgr3 = new manager("Croth", "Main Office", 3)
 
 class Company {
     constructor(name) {
@@ -39,7 +39,7 @@ class Company {
     }
 }
 
-const company  = new Company("Ponyville")
+const company  = new Company("The Company Co.")
 
 company.addEmployee(emp1)
 company.addEmployee(emp2)
