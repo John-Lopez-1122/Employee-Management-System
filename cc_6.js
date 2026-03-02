@@ -17,3 +17,10 @@ class manager extends employee {
         return `${this.name} manages ${this.teamSize} people in ${this.department}`
     }
 }
+
+const emp1 = new employee("Spike the dragon", "library")
+const mgr1 = new manager("Twilight Sparkle", "library", 3)
+const emp2 = new employee("Fluttershy", "Shelter")
+const mgr2 = new manager("Angel", "Shelter", 2)
+const emp3 = new employee("Rarity", "Boutique")
+const mgr3 = new manager("Rarity", "Boutique", 3)
