@@ -39,11 +39,13 @@ class Company {
     }
 }
 
-Company.addEmployee(emp1)
-Company.addEmployee(emp2)
-Company.addEmployee(emp3)
-Company.addEmployee(mgr1)
-Company.addEmployee(mgr2)
-Company.addEmployee(mgr3)
+const company  = new Company("Ponyville")
 
-Company.listEmployees()
+company.addEmployee(emp1)
+company.addEmployee(emp2)
+company.addEmployee(emp3)
+company.addEmployee(mgr1)
+company.addEmployee(mgr2)
+company.addEmployee(mgr3)
+
+company.listEmployees()
